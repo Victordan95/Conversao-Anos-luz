@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="titulo">Conversor de Anos-Luz</h1>
+    <p id="subtitulo">Pisque os olhos e a luz já terá dado sete voltas e meia em torno da Terra!</p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+        class="page-logo" alt="">
+
+    <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+            alt="" class="alura-logo">
+    </a>
+
+
+    <div class="bg">
+        <video autoplay muted loop>
+            <source src="terra.mp4" type="video/mp4">
+        </video>
+    </div>
+
+<div class="container">
+    
+    <div class="container-a">
+        <label for=""><strong> Quantos anos luz você quer converter?</strong></label>
+        <br>
+        <input type="num" id="entrada" placeholder="Anos Luz">
+    </div>
+
+    <div>
+        <input type="submit" onclick="converter()"  value="Converter" class="botao">
+
+    </div>
+
+    <div class="container-b">
+        <input type="num" id="saida" placeholder="Quilometros">
+    </div>
+</div>
+
+    <script src="converter.js"></script>
+</body>
+
+</html>
